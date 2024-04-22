@@ -32,6 +32,20 @@ public abstract class Hogwarts {
         this.transgressionDistance = transgressionDistance;
     }
 
+    public int countBaseAbilitiesTotal() {
+        return magicPower + transgressionDistance;
+    }
+    public void baseCompareStudents(Hogwarts hogwarts) {
+        int sum1 = countBaseAbilitiesTotal();
+        int sum2 = hogwarts.countBaseAbilitiesTotal();
 
+        if (sum1 > sum2) {
+            System.out.println(getName() + " сильнее " + hogwarts.getName());
+        } else if (sum1 < sum2) {
+            System.out.println(hogwarts.getName() + " сильнее " + getName());
+        } else {
+            System.out.println("Студенты равны");
+        }
+    }
 
 }

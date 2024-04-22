@@ -30,7 +30,10 @@ public class Main {
         printService.print(hufflepuffs);
         System.out.println();
         printService.print(ravenclaws);
-
+        System.out.println();
+        griffindors[1].compareGriffindorStudents(griffindors[2]);
+        System.out.println();
+        slytherins[2].baseCompareStudents(ravenclaws[1]);
 
 
     }
