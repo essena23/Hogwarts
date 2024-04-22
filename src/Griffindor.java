@@ -40,12 +40,12 @@ public class Griffindor extends Hogwarts {
     @Override
     public String toString() {
         return "Griffindor{" +
-                "nobility=" + nobility +
-                ", honor=" + honor +
-                ", bravery=" + bravery +
-                ", name='" + name + '\'' +
-                ", magicPower=" + magicPower +
-                ", transgressionDistance=" + transgressionDistance +
+                "Имя студента = " + name +
+                "; Сила магии = " + magicPower +
+                "; Расстояние трансгрессии = " + transgressionDistance +
+                "; Благородство = " + nobility +
+                "; Честность = " + honor +
+                "; Храбрость = " + bravery +
                 '}';
     }
 

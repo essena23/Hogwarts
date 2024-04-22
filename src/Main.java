@@ -24,6 +24,12 @@ public class Main {
         };
         PrintService printService = new PrintService();
         printService.print(griffindors);
+        System.out.println();
+        printService.print(slytherins);
+        System.out.println();
+        printService.print(hufflepuffs);
+        System.out.println();
+        printService.print(ravenclaws);
 
 
 
